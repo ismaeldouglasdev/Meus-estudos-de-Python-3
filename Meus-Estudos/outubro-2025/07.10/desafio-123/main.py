@@ -12,4 +12,3 @@ print(p1.nome, 'possui:', p1.mostrar_carros())
 
 c1 = Carro('Ferrari', 'Vermelha')
 print(c1.carro_independente())
-# Desafio em progresso ainda
