@@ -1,8 +1,0 @@
-# Sobre os.path.splitext() em Python
-
-Uma tarefa super comum ao trabalhar com arquivos em Python é **extrair a extensão de um arquivo**, ou separar o nome e a extensão para fazer filtragens ou modificações. O módulo padrão `os.path` oferece a função `splitext` para isso:[1][3][4]
-
-## Como funciona?
-A função `os.path.splitext(path)` divide o caminho do arquivo em dois elementos:
-- **Root**: tudo antes da última extensão (inclusive o caminho completo e o nome do arquivo, sem a extensão)
-- **Extensão**: o sufixo, incluindo o ponto final (`.txt`, `.jpg`, etc)
